@@ -1,5 +1,5 @@
 {
-  "name": "docker-logstash",
+  "name": "@containership/containership.marketplace.logstash",
   "private": true,
   "description": "Docker image designed to logstash on ContainerShip",
   "main": "logstash.js",

@@ -1,18 +1,17 @@
-docker-logstash
-==============
+Logstash
 
-##About
+See https://www.elastic.co/products/logstash for more information about Logstash.
 
-###Description
-Docker image designed to run logstash on ContainerShip
+## What is the Containership Marketplace?
 
-###Author
+The Containership marketplace is a series of containerized applications configured to easily run and scale on a [containership.io](https://containership.io) cluster! Many conveniences such as High-Availability, automatic clustering among others are able to be configured out of the box allowing you to scale seamlessly as your infrastructure is required to grow.
+
+> **Note:** If you attempt to run this image outside of a containership cluster, we cannot guarantee that it will run properly.
+
+### Author
 ContainerShip Developers - developers@containership.io
 
-##Usage
-This image is designed to run logstash on a ContainerShip cluster.
-
-###Configuration
+### Configuration
 This image will run as-is, with no additional environment variables set. There are various optionally configurable environment variables:
 
 * `REDIS_HOST` - redis host address
@@ -21,5 +20,5 @@ This image will run as-is, with no additional environment variables set. There a
 * `ELASTICSEARCH_HOST` - elasticsearch host address
 * `ELASTICSEARCH_PORT` - elasticsearch port
 
-##Contributing
+## Contributing
 Pull requests and issues are encouraged!
